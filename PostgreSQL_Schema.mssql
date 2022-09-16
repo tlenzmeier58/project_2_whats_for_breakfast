@@ -32,7 +32,7 @@ CREATE TABLE tbl_crops (
     item_type varchar(50)   NOT NULL,
     year int   NULL,
     item_unit varchar(25)   NULL,
-    value decimal(10,2)   NULL,
+    value int   NULL,
     CONSTRAINT pk_tbl_crops PRIMARY KEY (
         crop_id
      )
@@ -41,11 +41,11 @@ CREATE TABLE tbl_crops (
 CREATE TABLE tbl_livestock (
     livestock_id  SERIAL  NOT NULL,
     country_code char(3)   NOT NULL,
-    item_name varchar(50)   NOT NULL,
+    item_name varchar(125)   NOT NULL,
     item_type varchar(50)   NOT NULL,
     year int   NOT NULL,
     item_unit varchar(25)   NOT NULL,
-    value decimal(10,2)   NOT NULL,
+    value int   NOT NULL,
     CONSTRAINT pk_tbl_livestock PRIMARY KEY (
         livestock_id
      )
