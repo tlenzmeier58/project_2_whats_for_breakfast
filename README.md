@@ -1,5 +1,7 @@
 # Project 2 What's For Breakfast?
 
+![captain-crunch-face](https://user-images.githubusercontent.com/67832009/190542019-39a42c6a-184a-4dc6-8623-cd8973592e1c.gif)
+
 **Project Overview:**
 For project number two, we decided to use extract data from the World Wealth Bank of the World. This dataset had three seperate files. Crops, livestock, and population. The crop file contains every type of food crop per land area per year in most countries. The livestock file is the similar. The population file holds the population of each country by year. We also brought in a fourth dataset that contains each country and country code and which continent they are on. We transformed each dataset to limit the number of years we were measuring and combined the population dataset with the crop and livestock dataset through the country code on the countries dataset. Finally we loaded our data into the tables we created on postgreSQL. 
 
